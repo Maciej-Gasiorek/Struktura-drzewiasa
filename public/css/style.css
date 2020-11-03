@@ -1,0 +1,160 @@
+body {
+    background-color: black;
+    color:white;
+}
+
+.element {
+    background-color: rgb(231, 222, 222);
+    color:black;
+    display: flex;
+    height: 50px;
+    width: 550px;
+    border-radius: 15px;
+    align-items: center;
+    margin: 1rem;
+    line-height: 50px;
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    cursor: pointer;
+  }
+
+.element:hover {
+    font-size:110%;
+  }
+
+.element > i {
+    text-align: center;
+    margin-left: 0.5rem;
+    flex: 0 0 5%;
+  }
+
+.element span {
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+    flex: 0 0 60%;
+  }
+
+.element__divider {
+    flex: 0 0 1px;
+    background-color: lightgray;
+    height: 100%;
+  }
+
+.element__icons {
+    flex: 0 0 calc(30% - 1px);
+    display: flex;
+    justify-content: space-around;
+  }
+
+.element__icons a {
+    background-color: rgb(33, 255, 4);
+    width: 30px;
+    color: rgb(0, 0, 0);
+    height: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 0;
+    border-radius: 6px;
+    transition: 0.2s;
+    font-size: 0.8rem;
+    cursor: pointer;
+  }
+
+.element__icons a:hover {
+    box-shadow: 0px 6px 12px rgba(0, 255, 76, 0.7);
+  }
+
+.nested {
+    margin-left: 2rem;
+  }
+
+
+.error {
+      font-size:15px;
+      color:red;
+  }
+
+.sortOptions {
+    position: relative;
+    width: 200px;
+  }
+  
+.sortOptions > button {
+    display: block;
+    margin: 0 auto;
+    border: none;
+    text-align: center;
+    background-color: rgb(200, 19, 255);
+    color: white;
+    cursor: pointer;
+    width: 140px;
+    height: 40px;
+    line-height: 40px;
+    transition: 1s;
+    margin-bottom: 10px;
+  }
+  
+.sortOptions > button:hover {
+    box-shadow: 0px 6px 12px rgb(200, 19, 255);
+  }
+  
+.sortOptions > div {
+    display: none;
+    position: absolute;
+    width: 100%;
+  }
+  
+.sortOptions > div > button {
+    padding: 5px;
+    background-color: white;
+    width: 100%;
+    border: 1px solid gray;
+    display: block;
+    cursor: pointer;
+    transition: 0.2s;
+  }
+  
+.sortOptions > div > button:hover {
+    color: blue;
+  }
+
+.message {
+    height: 40px;
+    line-height: 40px;
+    background-color: black;
+    color: rgb(57, 255, 50);
+    font-size:50px;
+    border-radius: 10px;
+    display: inline-block;
+    padding: 0 1rem;
+    width: 100%;
+  }
+
+
+.warning {
+    color:red;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
